@@ -1,16 +1,61 @@
-# React + Vite
+🔐 Password Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive Password Generator built using React + Vite + Tailwind CSS.
+It allows users to generate secure random passwords with customizable options.
 
-Currently, two official plugins are available:
+🚀 Features:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✅ Generate random passwords instantly
 
-## React Compiler
+🔢 Option to include numbers
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🔣 Option to include special characters
 
-## Expanding the ESLint configuration
+📏 Adjustable password length (slider)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+📋 One-click copy to clipboard
+
+📱 Fully responsive (mobile & desktop)
+
+🎨 Clean UI using Tailwind CSS
+
+
+🛠️ Tech Stack:
+
+React (Hooks: useState, useEffect, useCallback, useRef)
+
+Vite (Fast build tool)
+
+Tailwind CSS (Utility-first styling)
+
+JavaScript (ES6+)
+
+
+📸 Preview
+
+A simple UI with:
+
+Password display field
+
+Copy button
+
+Length slider
+
+Checkbox options for numbers & characters
+
+
+⚙️ How It Works
+
+User selects:
+
+Password length
+
+Whether to include numbers
+
+Whether to include special characters
+
+App generates a random password based on selections
+
+Password updates automatically
+
+Clicking Copy copies the password to clipboard with visual feedback
