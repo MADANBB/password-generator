@@ -3,6 +3,8 @@
 A simple and responsive Password Generator built using React + Vite + Tailwind CSS.
 It allows users to generate secure random passwords with customizable options.
 
+🔗 Live Demo: https://password-generator-madanbb.vercel.app/
+
 🚀 Features:
 
 ✅ Generate random passwords instantly
